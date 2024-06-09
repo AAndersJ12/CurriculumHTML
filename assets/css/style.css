@@ -1,0 +1,112 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* iniciar sesión y registro*/
+.containerdesign {
+    margin: auto;
+    background-color: rgb(69, 148, 240);
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+input {
+    margin-top: 10px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: red;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+form {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, blue, violet);
+}
+
+header h1 {
+    text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.titles {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+.plabel{
+    color: aliceblue;
+    margin: 0 0 0 0;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.pfooter{
+    color: aliceblue;
+    margin: 0, auto;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    font-weight: 600;
+    width: 600px;
+}
+
+#footerdesign{
+    background-color: rgba(252, 250, 250, 0.2);
+    border-radius: 5pt;
+}
+
+#ingresar {
+    background-color: aqua;
+}
+
+#iniciobtn{
+    margin: 0 auto;
+}
+
+#registro, #iniciosesionbtn{
+    margin: 10px auto;
+    border: 2px solid rgb(138, 37, 0);
+    border-radius: 5pt;
+    background-color: rgb(224, 102, 58);
+    color: aliceblue;
+    font-family: Calibri;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.links {
+    color: aquamarine;
+    font-size: 12pt;
+}
+
+.links:hover{
+    color: greenyellow;
+}
+
+.links:active{
+    color: white;
+}
+
+footer {
+    margin: 0, auto;
+}
